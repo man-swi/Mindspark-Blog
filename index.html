@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Satisfy&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nabla&display=swap">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lusitana&family=Nabla&family=Tangerine:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #8499c4;
+            margin: 0;
+        }
+
+        .unleash-section {
+            display: flex;
+            align-items: center;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-family: 'Bebas Neue', ;
+        }
+
+        .unleash-heading {
+            font-size: 5.7em;
+            font-family: 'Barlow', sans-serif;
+
+            color: #fff;
+            text-shadow: 0 0 10px #e23b3b;
+            text-align: left;
+            line-height: 1.2;
+            margin-right: 10px;
+            margin-bottom: 0;
+        }
+
+        body {
+            font-family: 'Satisfy', cursive;
+        }
+
+
+        .intro-section {
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        .intro-heading {
+            margin-bottom: 5px;
+        }
+
+        .intro-description {
+            font-size: 1.5em;
+            text-align: left;
+        }
+
+        .unleash-intro {
+            font-size: 1.5em;
+        }
+
+        .get-started-button {
+            font-size: 1.2em;
+        }
+    </style>
+
+    <title>MindSpark</title>
+</head>
+
+<body>
+    <div class="gradient-bg"></div>
+    <header>
+        <h1 class="logo-name">MindSpark</h1>
+        <nav>
+            <ul>
+                <li class="home"><a href="/">Home</a></li>
+                <li class="about"><a href="/about">About</a></li>
+                <li class="contact"><a href="/contact">Contact</a></li>
+                <li class="create-blog"><a href="/create-blog">Create Blog</a></li>
+                <li class="login"><a href="/login">Login</a></li>
+                <li class="signup"><a href="/signup">Signup</a></li>
+                <li class="search-bar">
+                    <input type="text" placeholder="Search..." class="rounded-search-input">
+                    <button type="submit" class="rounded-search-button"><i class="fa fa-search"></i></button>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="unleash-section">
+            <h2 class="unleash-heading" style="text-align: left !important;">
+                <span style="text-shadow: 0 0 10px #e23b3b;">Unleash Your</span>
+                <br>
+                <span style="text-shadow: 0 0 10px #ebc032;">Creativity</span>
+                <br>
+                <span style="text-shadow: 0 0 10px #e23b3b;">Through Blogging</span>
+            </h2>
+            <p class="unleash-intro">Join our platform and share your ideas with the world.</p>
+            <button class="get-started-button">Let's Get Started!</button>
+        </section>
+        <section class="intro-section">
+            <h2 class="template-title"
+                style="font-family: 'Satisfy', cursive; padding-top: 90px; cursor: pointer; font-size: 40px; color: #ffffff;">
+                Let's Explore our Themes and Templates</h2>
+        </section>
+
+
+        <section class="templates">
+            <article class="template">
+                <h2 class="template-title">Creative</h2>
+                <img src="1.jpg" alt="Image"
+                    style="width: 1150px; height: 340px; object-fit: cover; aspect-ratio: 115/34;">
+                <p class="template-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                <a href="#" class="read-more" style="cursor: pointer;">Read More</a>
+            </article>
+            <article class="template">
+                <h2 class="template-title">Image-Centric</h2>
+                <img src="2.jpg" alt="Image"
+                    style="width: 1150px; height: 340px; object-fit: cover; aspect-ratio: 115/34;">
+                <p class="template-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                <a href="#" class="read-more" style="cursor: pointer;">Read More</a>
+            </article>
+            <article class="template">
+                <h2 class="template-title">Unique</h2>
+                <img src="3.jpg" alt="Image"
+                    style="width: 1150px; height: 340px; object-fit: cover; aspect-ratio: 115/34;">
+                <p class="template-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                <a href="#" class="read-more" style="cursor: pointer;">Read More</a>
+            </article>
+
+            <script>
+                const templates = document.querySelectorAll('.template');
+                const startButtons = document.querySelectorAll('.start-button');
+
+                for (const template of templates) {
+                    const startButton = template.querySelector('.start-button');
+                    startButton.addEventListener('mouseover', function () {
+                        this.style.display = 'block';
+                    });
+
+                    startButton.addEventListener('mouseout', function () {
+                        this.style.display = 'none';
+                    });
+                }
+            </script>
+
+            <div class="reviews-section">
+                <h2 class="reviews-heading-yellow">What People Are Saying.....</h2>
+                <div class="review">
+                    <div class="review-author">
+                        <img src="author1.jpg" alt="Author 1">
+                        <p class="author-name">Manaswi Kamble</p>
+                    </div>
+                    <div class="review-content">
+                        <div class="star-rating">
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star-half">&#9733;</span>
+                        </div>
+                        <p class="review-text">"This platform has truly transformed the way I express my thoughts and
+                            connect with others. Highly recommended!"</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+    </main>
+    <section class="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Stay updated with the latest blog posts and news!</p>
+        <form>
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <div class="social-media-section">
+        <h2>Connect with Us on Social Media</h2>
+        <div class="social-media-icons">
+            <a href="https://www.facebook.com/yourpage" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com/yourpage" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/yourpage" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/yourprofile" class="social-icon"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>&copy; 2023 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>

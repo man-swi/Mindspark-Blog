@@ -1,0 +1,401 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #e70a0a;
+    background-image: url("glass3-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(8px);
+}
+
+.gradient-bg {
+    background: linear-gradient(180deg, rgba(102, 153, 204, 0.8), rgba(102, 153, 204, 0.4) 30%, rgba(255, 255, 255, 0.2) 60%, rgba(102, 153, 204, 0.4) 90%, rgba(102, 153, 204, 0.8));
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-name {
+    font-family: 'Nabla', sans-serif; 
+    margin-left: 0.8cm; 
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.template-title:hover,
+img:hover {
+    box-shadow: 0 0 10px #8610f5;
+    transform: scale(1.1);
+}
+
+.intro-section,
+.templates,
+.reviews-section,
+.newsletter
+.social-icon
+.footer {
+    margin-bottom: 43px;
+}
+
+header {
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #9aa9da;
+    color: white;
+    height: 1.5cm;
+    padding: 10px 20px 10px 0.8cm; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+header h1 {
+    margin-left: 0.8cm; 
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1cm;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+}
+.rounded-search-input {
+    border: none;
+    padding: 8px;
+    border-radius: 20px; 
+}
+
+.rounded-search-button {
+    background-color: #431bd4;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 20px; /
+}
+
+.unleash-section {
+    text-align: left; 
+    margin-bottom: 40px;
+}
+
+.unleash-heading {
+    margin-bottom: 10px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.unleash-intro {
+    font-family: 'Satisfy', cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #7eecac;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px; 
+    
+}
+
+.get-started-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.get-started-button:hover {
+    background-color: #e23b3b;
+    color: white;
+    cursor: pointer;
+}
+
+.creativity {
+    display: block;
+    font-size: 1.2em;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.through-blogging {
+    display: block;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.intro-section {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Satisfy', cursive;
+}
+
+.intro-heading {
+    margin-bottom: 10px;
+    font-family: 'Gentona', sans-serif;
+    font-size: 2.5em;
+}
+
+.intro-description {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 36px;
+    color: #333;
+}
+
+h2 {
+    font-family: Open Sans;
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-family: Georgia;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+article {
+    flex: 0 1 calc(33.33% - 40px);
+    margin: 20px;
+    margin-bottom: 20px;
+    padding: 40px;
+    border: 1px solid #ccc;
+}
+
+.templates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.template img {
+    width: 100%;
+    height: calc(100vh - 100px);
+    object-fit: cover;
+    max-width: none;
+    object-fit: cover;
+
+}
+
+article h2 {
+    margin-top: 0;
+}
+
+img {
+    max-width: none;
+    object-fit: cover;
+    padding: 0;
+    border-radius: 40px 0 40px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+.template-title {
+    color:rgb(236, 9, 134);
+}
+.template2 img {
+    margin-top: 10px;
+}
+
+.read-more {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.tips {
+
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.tips-heading {
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.tips-list {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tip-item {
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+}
+
+.tip-item::before {
+    content: '\2022';
+    color: #ffff;
+    font-size: 4em;
+    margin-right: 10px;
+}
+
+.reviews-heading-yellow {
+     font-family: 'Satisfy', cursive;
+    color: #ffff; 
+    font-size: 30px;
+}
+
+
+.author-name {
+    color: rgb(208, 243, 50);
+    font-weight: bold;
+}
+
+
+.review-text {
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+
+.social-media-section {
+    text-align: center; 
+    margin-top: 40px;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.social-icon {
+    font-size: 24px; 
+    color: #3af322; 
+    margin: 0 10px; 
+   
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #e23b3b; 
+    cursor: pointer; 
+}
+
+.social-media-section h2 {
+    font-family: 'Satisfy', cursive;
+    font-size: 2.5em;
+    color: white; 
+    margin-top: 0;
+    margin-bottom: 20px;
+   
+}
+
+.newsletter {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    padding: 40px;
+    font-family: 'Satisfy', cursive;
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+}
+
+.newsletter h2 {
+    font-family: 'Satisfy', cursive;
+    font-size: 2.5em;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-right: 70px;
+}
+
+.newsletter p {
+    font-size: 1.2em;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-right: 35px;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter input[type="email"] {
+    flex: 1;
+    padding: 10px 12px;
+    margin-left: 20px; 
+    border: 1px solid #fff;
+    border-radius: 5px;
+    max-width: 600px; 
+}
+
+
+.newsletter button {
+    background-color: #e70a0a;
+    color: white;
+    border: none;
+    padding: 10px 15px; 
+    cursor: pointer;
+    border-radius: 5px;
+}
